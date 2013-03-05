@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Template</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<meta name="viewport" content="width=device-width"/>
 </head>
@@ -11,51 +12,78 @@
 
 <!-- BEGIN  header-->
 <header class="header">
-	<strong class="nav"><a href="#">UAWEB challenge</a></strong>
-	<nav class="nav_t">
-		<ul>
-			<li><a href="#">Про проект</a></li>
-			<li><a href="#">Календар</a></li>
-			<li><a href="#">Партнери</a></li>
-			<li><a href="#">Журі</a></li>
-			<li><a href="#">Оргкомітет</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Контакти</a></li>
+	<div class="in">
+		<strong class="logo"><a href="#">UAWEB challenge</a></strong>
+		<nav class="nav_t">
+			<ul>
+				<li><a href="#">Про проект</a></li>
+				<li><a href="#">Календар</a></li>
+				<li><a href="#">Партнери</a></li>
+				<li><a href="#">Журі</a></li>
+				<li><a href="#">Оргкомітет</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Контакти</a></li>
+			</ul>
+		</nav>
+		<ul class="lang">
+			<li class="active"><a href="#" class="lang__ukr">ukr</a></li>
+			<li><a href="#" class="lang__ru">ru</a></li>
 		</ul>
-	</nav>
-	<ul class="lang">
-		<li><a href="#" class="lang__ukr"></a></li>
-		<li><a href="#" class="lang__ru"></a></li>
-	</ul>
-	<a href="#" class="member-login"></a>
+		<a href="#" class="member-login">Вхід для учасників</a>
+	</div>
 </header>
 <!-- END header-->
 
-<!-- BEGIN  footer-->
-<footer class="footer">
-	<div class="footer__t">
-		<nav class="nav_b">
-		<ul>
-			<li><a href="#">Про проект</a></li>
-			<li><a href="#">Календар</a></li>
-			<li><a href="#">Партнери</a></li>
-			<li><a href="#">Журі</a></li>
-			<li><a href="#">Оргкомітет</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">Контакти</a></li>
-		</ul>
-	</nav>
-	<ul class="ch-num">
-		<li><a href="#">ІV</a></li>
-		<li><a href="#">III</a></li>
-		<li><a href="#">II</a></li>
-		<li><a href="#">I</a></li>
-	</ul>
+<!-- BEGIN  social-->
+<div class="social">
+	<div class="in">
+		<h2 class="h2">Соціальні мережі</h2>
+		<div class="social__box"><img src="img/vk.jpg" alt=""></div>
+		<div class="social__box"><img src="img/fb.jpg" alt=""></div>
+		<div class="social__box"><img src="img/tw.jpg" alt=""></div>
 	</div>
-	<div class="footer_b">
+</div>
+<!-- END social-->
+
+<!-- BEGIN  solved-now-->
+<div class="solved-now">
+	<h2>Не вагайся, вирішуй зараз!</h2>
+	<p>Тобі потрібно лише заповнити анекту та вказати номінацію.</p>
+	<a href="#" class="btn">Стати учасником</a>
+</div>
+<!-- END solved-now-->
+
+<!-- BEGIN .footer-nav -->
+<footer class="footer-nav">
+	<div class="in">
+		<nav class="nav_b">
+			<ul>
+				<li><a href="#">Про проект</a></li>
+				<li><a href="#">Календар подій</a></li>
+				<li><a href="#">Наші партнери</a></li>
+				<li><a href="#">Журі</a></li>
+				<li><a href="#">Оргкомітет</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Контакти</a></li>
+			</ul>
+		</nav>
+		<ul class="ch-num">
+			<li><a href="#">ІV</a></li>
+			<li><a href="#">III</a></li>
+			<li><a href="#">II</a></li>
+			<li><a href="#">I</a></li>
+		</ul>
+	</div>
+</footer>
+<!-- END footer-nav -->
+
+
+<!-- BEGIN footer-->
+<footer class="footer">
+	<div class="in">
 		<div class="footer__email">
-			<p>Свої питання та пропозиції надсилайте на адресу: <a href="#">box@uwc.org.ua</a></p>
-			<p>Завдання, рішення: <a href="#"></a>judges@uwc.org.ua</p>
+			<p>Свої питання та пропозиції <br>надсилайте на адресу: <a href="#">box@uwc.org.ua</a></p>
+			<p>Завдання, рішення: <a href="#">judges@uwc.org.ua</a></p>
 		</div>
 		<div class="footer__contacts">
 			<dl>
@@ -67,7 +95,7 @@
 		</div>
 		<div class="footer__rights">
 			<p>© Ініціативна група UAWebChallenge, 2011­–2013</p>
-			<p>Дизайн — веб-студія <i></i> <a href="#">stfalcon.com</a></p>
+			<p>Дизайн — веб-студія <i class="stfalcon-logo"></i> <a href="#">stfalcon.com</a></p>
 		</div>
 	</div>
 </footer>
