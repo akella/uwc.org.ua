@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<meta name="viewport" content="width=device-width"/>
+	<script src="js/html5shiv.js"></script>
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 <header class="header">
 	<div class="in">
 		<strong class="logo"><a href="#">UAWEB challenge</a></strong>
-		<nav class="nav_t">
+		<nav class="globalnav">
 			<ul>
 				<li><a href="#">Про проект</a></li>
 				<li><a href="#">Календар</a></li>
@@ -26,7 +27,7 @@
 			</ul>
 		</nav>
 		<ul class="lang">
-			<li class="active"><a href="#" class="lang__ukr">ukr</a></li>
+			<li class="is-active"><a href="#" class="lang__ukr">ukr</a></li>
 			<li><a href="#" class="lang__ru">ru</a></li>
 		</ul>
 		<a href="#" class="member-login">Вхід для учасників</a>
@@ -208,7 +209,7 @@
 <!-- END partners-->
 
 <!-- BEGIN reviews -->
-<div class="reviews reviews_big">
+<div class="reviews reviews_mid">
 	<div class="in">
 		<h3 class="h2">Відгуки</h3>
 		<div class="reviews__list">
@@ -253,13 +254,13 @@
 				</blockquote>
 			</div>
 		</div>
-		<a href="#" class="reviews__all"><span>Усі відгуки</span><i></i></a>
+		<a href="#" class="link-more"><span>Усі відгуки</span><i></i></a>
 	</div>
 </div>
 <!-- END reviews -->
 
 <!-- BEGIN success -->
-<div class="success success_big">
+<div class="success success_mid">
 	<div class="in">
 		<h2 class="h2">Історії успіху</h2>
 			<div class="success__item">
@@ -270,7 +271,7 @@
 					<p>Зараз — Junior Front-end Developer в SysIQ. Переїхала до Києва із сонячного Криму працювати у Партнера чемпіонату.</p>
 				</div>
 			</div>
-		<a href="#" class="success__all"><span>Інші історії</span><i></i></a>
+		<a href="#" class="link-more_2"><span>Інші історії</span><i></i></a>
 	</div>
 </div>
 <!-- END success -->
@@ -279,9 +280,11 @@
 <div class="social">
 	<div class="in">
 		<h2 class="h2">Соціальні мережі</h2>
-		<div class="social__box"><img src="img/vk.jpg" alt=""></div>
-		<div class="social__box"><img src="img/fb.jpg" alt=""></div>
-		<div class="social__box"><img src="img/tw.jpg" alt=""></div>
+		<div class="social__list">
+			<div class="social__box social__box_first"><img src="img/vk.jpg" alt=""></div>
+			<div class="social__box"><img src="img/fb.jpg" alt=""></div>
+			<div class="social__box"><img src="img/tw.jpg" alt=""></div>
+		</div>
 	</div>
 </div>
 <!-- END social-->
@@ -297,7 +300,7 @@
 <!-- BEGIN .footer-nav -->
 <footer class="footer-nav">
 	<div class="in">
-		<nav class="nav_b">
+		<nav class="subnav">
 			<ul>
 				<li><a href="#">Про проект</a></li>
 				<li><a href="#">Календар подій</a></li>

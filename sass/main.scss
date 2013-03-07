@@ -96,22 +96,23 @@
 		font-size: 22px;
 		line-height: 1.36;
 		color:#814132;
-		margin: 48px 0 55px;
+		margin: 48px 0;
 	}
 }
 
 // nominations
 .nominations{
+	overflow: hidden;
 	ul{
-		overflow: hidden;
 		padding: 11px 0 0;
+		margin-right: -51px;
 	}
 	li{
 		list-style: none;
 		float: left;
 		width: 195px;
-		margin: 0 51px 32px 0;
-		&:nth-child(3n){margin-right: 0;}
+		margin: 0 51px 10px 0;
+		min-height: 100px;
 	}
 	h4{
 		font-size: 16px;
@@ -130,7 +131,10 @@
 	float: left;
 	width: 490px;
 	padding: 21px 0 0;
-	ul{padding-top: 8px;}
+	ul{
+		padding-top: 8px;
+		margin-right: -56px;
+	}
 	.court__photo{
 		border-radius:50%;
 		border:6px solid #dedede;
@@ -142,8 +146,9 @@
 		float: left;
 		width: 190px;
 		list-style: none;
-		margin:0 56px 42px 0;
-		&:nth-child(even){margin-right: 0;}
+		margin:0 56px 18px 0;
+		min-height: 180px;
+		//&:nth-child(even){margin-right: 0;}
 	}
 	h4{
 		font-size: 16px;
@@ -203,11 +208,25 @@
 	}
 }
 
-// reviews_big
-.reviews_big{
+// reviews_mid reviews_big
+.reviews_mid, .reviews_big{
+	.reviews__item{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.reviews__photo{float: left;}
+	blockquote{float: right;}
+}
+
+// reviews_mid
+.reviews_mid{
 	min-width: 962px;
 	overflow: hidden;
 	padding: 33px 0 35px;
+	.reviews__item{
+		width: 410px;
+		margin: 20px 77px 38px 0;
+	}
 	.h2{
 		float: left;
 		width: 136px;
@@ -222,24 +241,33 @@
 			clear: both;
 		}
 	}
-	.reviews__item{
-		display: inline-block;
-		vertical-align: top;
-		width: 410px;
-		margin: 20px 0 38px;
-	}
-	.reviews__all{
-		margin-left:144px;
-	}
-	.reviews__photo{
-		float: left;
-	}
 	blockquote{
-		float: right;
-		margin: 11px 77px 0 0;
+		margin: 11px 0 0 0;
 		width: 220px;
 	}
+	.link-more{
+		margin-left:144px;
+	}
 }
+// reviews_big
+.reviews_big{
+	background: none;
+	padding: 25px 0 0;
+	margin-right: -25px;
+	.h1{margin-bottom: 10px;}
+	.reviews__photo{
+		border-color: #d4d4d4;
+	}
+	.reviews__item{
+		margin: 20px 24px 38px 0;
+		width: 300px;
+	}
+	blockquote{
+		margin: 11px 0 0 0;
+		width: 195px;
+	}
+}
+
 
 // success
 .success{
@@ -280,8 +308,8 @@
 	}
 }
 
-// success_big
-.success_big{
+// success_mid
+.success_mid{
 	min-width: 962px;
 	overflow: hidden;
 	padding: 36px 0 35px;
@@ -312,9 +340,51 @@
 			text-align: left;
 		}
 	}
-	.success__all{
+	.link-more_2{
 		float: right;
 		margin-top: 58px;
+	}
+}
+
+// success_big
+.success_big{
+	padding: 25px 0 0;
+	background: none;
+	.success__item{
+		overflow: hidden;
+		padding: 23px 0;
+	}
+	.success__photo{
+		float: left;
+		margin: 0 12px 0 0;
+		border-color: #d4d4d4;
+	}
+	.success__inf{
+		float: left;
+		width: 520px;
+		padding: 11px 0 0;
+		h4{
+			text-align: left;
+			font-family: Arial, sans-serif;
+			font-size: 15px;
+			font-weight: bold;
+			color:#1f2224;
+		}
+		span{
+			text-align: left;
+			color: #7b8992;
+			font-size: 12px;
+		}
+		p{
+			font-size: 14px;
+			color: #7b8992;
+			margin: 5px 0 11px;
+		}
+		blockquote{
+			color: #655e4f;
+			font-size: 15px;
+			font-style: italic;
+		}
 	}
 }
 

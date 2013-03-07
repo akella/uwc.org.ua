@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<meta name="viewport" content="width=device-width"/>
+	<script src="js/html5shiv.js"></script>
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 <header class="header">
 	<div class="in">
 		<strong class="logo"><a href="#">UAWEB challenge</a></strong>
-		<nav class="nav_t">
+		<nav class="globalnav">
 			<ul>
 				<li><a href="#">Про проект</a></li>
 				<li><a href="#">Календар</a></li>
@@ -26,7 +27,7 @@
 			</ul>
 		</nav>
 		<ul class="lang">
-			<li class="active"><a href="#" class="lang__ukr">ukr</a></li>
+			<li class="is-active"><a href="#" class="lang__ukr">ukr</a></li>
 			<li><a href="#" class="lang__ru">ru</a></li>
 		</ul>
 		<a href="#" class="member-login">Вхід для учасників</a>
@@ -167,7 +168,7 @@
 						</footer>
 					</blockquote>
 				</div>
-				<a href="#" class="link-more"><span>Усі відгуки</span><i></i></a>
+				<a href="#" class="link-more_2"><span>Усі відгуки</span><i></i></a>
 			</div>
 			<!-- END reviews -->
 
@@ -196,25 +197,19 @@
 <div class="social">
 	<div class="in">
 		<h2 class="h2">Соціальні мережі</h2>
-		<div class="social__box"><img src="img/vk.jpg" alt=""></div>
-		<div class="social__box"><img src="img/fb.jpg" alt=""></div>
-		<div class="social__box"><img src="img/tw.jpg" alt=""></div>
+		<div class="social__list">
+			<div class="social__box social__box_first"><img src="img/vk.jpg" alt=""></div>
+			<div class="social__box"><img src="img/fb.jpg" alt=""></div>
+			<div class="social__box"><img src="img/tw.jpg" alt=""></div>
+		</div>
 	</div>
 </div>
 <!-- END social-->
 
-<!-- BEGIN  solved-now-->
-<div class="solved-now">
-	<h2>Не вагайся, вирішуй зараз!</h2>
-	<p>Тобі потрібно лише заповнити анекту та вказати номінацію.</p>
-	<a href="#" class="btn">Стати учасником</a>
-</div>
-<!-- END solved-now-->
-
 <!-- BEGIN .footer-nav -->
 <footer class="footer-nav">
 	<div class="in">
-		<nav class="nav_b">
+		<nav class="subnav">
 			<ul>
 				<li><a href="#">Про проект</a></li>
 				<li><a href="#">Календар подій</a></li>
