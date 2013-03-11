@@ -224,7 +224,7 @@
 	overflow: hidden;
 	padding: 33px 0 35px;
 	.reviews__item{
-		width: 410px;
+		width: 331px;
 		margin: 20px 77px 38px 0;
 	}
 	.h2{
@@ -427,39 +427,4 @@
 		margin-right: 82px;
 	}
 	.link-more_bd{margin-top: -2px;}
-}
-
-
-//judges
-.judges{
-	padding: 24px 0 0;
-	.h1{margin-bottom: 31px;}
-	.judges__item{
-		overflow: hidden;
-		margin-bottom: 36px;
-	}
-	.judges__photo{
-		float: left;
-		margin-right: 22px;
-		img{vertical-align: top;}
-	}
-	.judges__info{
-		float: left;
-		width: 470px;
-		padding: 8px 0 0;
-		h4{
-			font-size: 18px;
-			font-weight: bold;
-			color: #1f2224;
-			margin-bottom: 11px;
-		}
-		p{
-			color: #677781;
-			font-size: 14px;
-			margin-bottom: 11px;
-		}
-		a{
-			color: #0099d4;
-		}
-	}
 }

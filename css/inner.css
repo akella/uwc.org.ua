@@ -1,0 +1,9 @@
+.judges { padding: 24px 0 0; }
+.judges .h1 { margin-bottom: 31px; }
+.judges .judges__item { overflow: hidden; margin-bottom: 36px; }
+.judges .judges__photo { float: left; margin-right: 22px; }
+.judges .judges__photo img { vertical-align: top; }
+.judges .judges__info { float: left; width: 470px; padding: 8px 0 0; }
+.judges .judges__info h4 { font-size: 18px; font-weight: bold; color: #1f2224; margin-bottom: 11px; }
+.judges .judges__info p { color: #677781; font-size: 14px; margin-bottom: 11px; }
+.judges .judges__info a { color: #0099d4; }

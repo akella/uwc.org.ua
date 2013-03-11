@@ -93,6 +93,8 @@ header,footer, nav, aside{display: block;}
 	border-radius:3px;
 	display: inline-block;
 	text-align: center;
+	border:0;
+	cursor: pointer;
 	&:hover{
 		background: #fff51b;
 		color:#3d3a00;
