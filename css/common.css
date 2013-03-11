@@ -109,7 +109,7 @@ header, footer, nav, aside { display: block; }
 .user-block .user-block__link { float: right; border-bottom: 1px dotted; margin: 0 12px; text-decoration: none; }
 .user-block .user-block__link:hover { border-color: transparent; }
 
-.social-float { background: #00adef; position: absolute; top: 200px; right: 0; z-index: 10; }
+.social-float { background: #00adef; position: fixed; top: 50%; right: 0; -moz-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -ms-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); margin-top: -57px; z-index: 10; }
 .social-float a { display: block; margin: 12px 6px; }
 .social-float .vk { background: url('../img/icons-s78357531ab.png') 0 -182px no-repeat; width: 22px; height: 22px; }
 .social-float .vk:hover { background: url('../img/icons-s78357531ab.png') 0 -150px no-repeat; width: 22px; height: 22px; }

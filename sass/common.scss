@@ -380,9 +380,11 @@ header,footer, nav, aside{display: block;}
 // social-float
 .social-float{
 	background: #00adef;
-	position: absolute;
-	top:200px;
+	position: fixed;
+	top:50%;
 	right: 0;
+	@include transition(top, .4s, cubic-bezier(0.215, 0.61, 0.355, 1));
+	margin-top: -57px;
 	z-index: 10;
 	a{
 		display: block;
