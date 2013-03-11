@@ -377,6 +377,26 @@ header,footer, nav, aside{display: block;}
 	}
 }
 
+// social-float
+.social-float{
+	background: #00adef;
+	position: absolute;
+	top:200px;
+	right: 0;
+	z-index: 10;
+	a{
+		display: block;
+		@extend %hide-text;
+		margin: 12px 6px;
+	}
+	.vk{@include sized-sprite($icons, 'vk2');}
+	.vk:hover{@include sized-sprite($icons, 'vk3');}
+	.fb{@include sized-sprite($icons, 'fb2');}
+	.fb:hover{@include sized-sprite($icons, 'fb3');}
+	.tw{@include sized-sprite($icons, 'tw2');}
+	.tw:hover{@include sized-sprite($icons, 'tw3');}
+}
+
 
 //main
 .main{
