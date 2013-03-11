@@ -159,6 +159,9 @@
 			background: #e5e1d3;
 			@include background-image(linear-gradient(#e5e1d3, #d5d1c3));
 			box-shadow:0 -1px 0 rgba(137,110,93,.18) inset;
+			&:hover{
+				color: #bc3a13;
+			}
 		}
 		input{
 			opacity: 0;

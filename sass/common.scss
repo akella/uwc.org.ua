@@ -383,7 +383,6 @@ header,footer, nav, aside{display: block;}
 	position: fixed;
 	top:50%;
 	right: 0;
-	@include transition(top, .4s, cubic-bezier(0.215, 0.61, 0.355, 1));
 	margin-top: -57px;
 	z-index: 10;
 	a{
@@ -427,7 +426,6 @@ header,footer, nav, aside{display: block;}
 	p{
 		line-height: 1.57;
 		margin: 10px 0 26px;
-		color:#1f2224
 	}
 	ul{
 		margin-bottom: 30px;
@@ -457,6 +455,7 @@ header,footer, nav, aside{display: block;}
 		position: relative;
 		color:#677781;
 		margin: 35px 60px 35px 82px;
+		p{margin: 10px 0 16px;}
 		&:before{
 			content:'';
 			position: absolute;

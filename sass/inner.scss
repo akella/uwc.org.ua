@@ -33,3 +33,33 @@
 		}
 	}
 }
+
+//tabs__nav
+.tabs__nav{
+	overflow: hidden;
+	margin-bottom: 30px;
+	a{
+		float: left;
+		font-size: 14px;
+		font-weight: bold;
+		color:#1f2224;
+		width: 317px;
+		text-align: center;
+		height: 37px;
+		line-height: 37px;
+		cursor: pointer;
+		background: #e5e1d3;
+		@include background-image(linear-gradient(#e5e1d3, #d5d1c3));
+		box-shadow:0 -1px 0 rgba(137,110,93,.18) inset;
+		text-decoration: none;
+		&:hover{
+			color: #bc3a13;
+		}
+		&.is-active{
+			color: #fff;
+			@include background-image(linear-gradient(#981600, #bc3a13));
+		}
+		&:first-child{border-radius:3px 0 0 3px;}
+		&:last-child{border-radius:0 3px 3px 0;}
+	}
+}

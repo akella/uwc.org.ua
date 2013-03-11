@@ -109,7 +109,7 @@ header, footer, nav, aside { display: block; }
 .user-block .user-block__link { float: right; border-bottom: 1px dotted; margin: 0 12px; text-decoration: none; }
 .user-block .user-block__link:hover { border-color: transparent; }
 
-.social-float { background: #00adef; position: fixed; top: 50%; right: 0; -moz-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -o-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -webkit-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); -ms-transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); transition: top 0.4s cubic-bezier(0.215, 0.61, 0.355, 1); margin-top: -57px; z-index: 10; }
+.social-float { background: #00adef; position: fixed; top: 50%; right: 0; margin-top: -57px; z-index: 10; }
 .social-float a { display: block; margin: 12px 6px; }
 .social-float .vk { background: url('../img/icons-s78357531ab.png') 0 -182px no-repeat; width: 22px; height: 22px; }
 .social-float .vk:hover { background: url('../img/icons-s78357531ab.png') 0 -150px no-repeat; width: 22px; height: 22px; }
@@ -123,13 +123,14 @@ header, footer, nav, aside { display: block; }
 .content { float: left; width: 634px; }
 
 .content__text { padding: 25px 0 120px; }
-.content__text p { line-height: 1.57; margin: 10px 0 26px; color: #1f2224; }
+.content__text p { line-height: 1.57; margin: 10px 0 26px; }
 .content__text ul { margin-bottom: 30px; }
 .content__text ul li { list-style: none; position: relative; margin: 10px 0 13px; }
 .content__text ul li:before { content: ''; position: absolute; left: -26px; top: 10px; height: 1px; width: 16px; background: #000; }
 .content__text ol { margin-bottom: 30px; }
 .content__text ol li { list-style-type: decimal; margin: 10px 0 13px; }
 .content__text blockquote { position: relative; color: #677781; margin: 35px 60px 35px 82px; }
+.content__text blockquote p { margin: 10px 0 16px; }
 .content__text blockquote:before { content: ''; position: absolute; left: 0; top: -12px; height: 2px; width: 60px; background: #aab5bd; }
 
 .figure { margin: 0 -20px 38px 0; }
