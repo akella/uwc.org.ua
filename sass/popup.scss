@@ -6,6 +6,7 @@
 	height: 100%;
 	width: 100%;
 	background: #677781;
+	z-index: 15;
 }
 .popup{
 	position: fixed;
@@ -16,6 +17,7 @@
 	width:296px;
 	padding:21px 32px 34px;
 	margin: -203px 0 0 -180px;
+	z-index: 20;
 	.h2{
 		margin: 0 0 9px;
 	}

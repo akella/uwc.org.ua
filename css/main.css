@@ -58,7 +58,7 @@
 .reviews_mid blockquote { margin: 11px 0 0 0; width: 220px; }
 .reviews_mid .link-more { margin-left: 144px; }
 
-.reviews_big { background: none; padding: 25px 0 0; margin-right: -25px; }
+.reviews_big { background: none; padding: 0; margin-right: -25px; }
 .reviews_big .h1 { margin-bottom: 10px; }
 .reviews_big .reviews__photo { border-color: #d4d4d4; }
 .reviews_big .reviews__item { margin: 20px 24px 38px 0; width: 300px; }
@@ -81,7 +81,7 @@
 .success_mid .success__inf span { text-align: left; }
 .success_mid .link-more_2 { float: right; margin-top: 58px; }
 
-.success_big { padding: 25px 0 0; background: none; }
+.success_big { padding: 0; background: none; }
 .success_big .success__item { overflow: hidden; padding: 23px 0; }
 .success_big .success__photo { float: left; margin: 0 12px 0 0; border-color: #d4d4d4; }
 .success_big .success__inf { float: left; width: 520px; padding: 11px 0 0; }

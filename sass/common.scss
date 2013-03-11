@@ -411,9 +411,9 @@ header,footer, nav, aside{display: block;}
 .content{
 	float: left;
 	width: 634px;
+	padding: 25px 0 120px;
 }
 .content__text{
-	padding: 25px 0 120px;
 	h1{
 		@extend .h1;
 	}
@@ -589,7 +589,7 @@ header,footer, nav, aside{display: block;}
 .sidebar{
 	float: right;
 	width: 234px;
-	padding: 42px 0 0;
+	padding: 42px 0 70px;
 }
 .banner{
 	display: block;
@@ -682,7 +682,7 @@ header,footer, nav, aside{display: block;}
 //footer
 .footer{
 	background: #000;
-	display: inline-block;
+	overflow: hidden;
 	width: 100%;
 	min-width: 962px;
 	padding: 33px 0;

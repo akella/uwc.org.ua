@@ -2,7 +2,6 @@
 
 //judges
 .judges{
-	padding: 24px 0 0;
 	.h1{margin-bottom: 31px;}
 	.judges__item{
 		overflow: hidden;
@@ -61,5 +60,141 @@
 		}
 		&:first-child{border-radius:3px 0 0 3px;}
 		&:last-child{border-radius:0 3px 3px 0;}
+	}
+}
+
+.calendar{
+	padding: 24px 0 0;
+}
+// time-line
+.time-line{
+	position: relative;
+	overflow: hidden;
+	margin: 31px 0 0;
+	padding: 17px 0 0;
+	.time-line__line{
+		background: #aab5bd;
+		width: 2px;
+		height: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 223px;
+	}
+	.time-line__item{
+		display: inline-block;
+		position: relative;
+		width: 635px;
+		padding: 24px 0;
+		margin-bottom: 24px;
+		border-radius:3px;
+		&:before{
+			position: absolute;
+			content:'';
+			background: #aab5bd;
+			width: 2px;
+			height: 200%;
+			position: absolute;
+			bottom: 43px;
+			left: 223px;
+		}
+	}
+	.time-line__date{
+		float: left;
+		width: 193px;
+		text-align: right;
+		margin:3px 0 0 10px;
+		color: #896e5d;
+	}
+	.time-line__event{
+		float: right;
+		font-size: 13px;
+		color: #7b8992;
+		width: 379px;
+		margin-right: 10px;
+		strong{
+			font-weight: normal;
+			display: block;
+			font-size: 18px;
+			color: #1f2224;
+		}
+	}
+	.time-line__point{
+		@include sized-sprite($icons, 'point');
+		left: 219px;
+		top: 30px;
+		position: absolute;
+		z-index: 10;
+	}
+	.future{
+		&:before{
+			background: #dfe3e6;
+			z-index: 8;
+		}
+		.time-line__event, .time-line__event strong, .time-line__date{
+			color:#aab5bd;
+		}
+		.time-line__point{@include sized-sprite($icons, 'point_n');}
+	}
+	.present{
+		background: #fff;
+		.time-line__point{@include sized-sprite($icons, 'point_h');}
+		.time-line__event strong{
+			color: #bc3a13;
+		}
+	}
+}
+.reg-text{
+	text-align: center;
+	border:1px solid #dedacc;
+	padding: 19px 0 23px;
+	margin-bottom: 21px;
+	.btn_sm{
+		width: 220px;
+		margin-bottom: 19px;
+	}
+	p{margin: 0;}
+}
+
+
+//orgs
+.orgs{
+	padding: 24px 0 0;
+	margin: 0 -18px 0 0;
+	.orgs__item{
+		text-align: center;
+		width: 200px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 14px 45px 0;
+	}
+	.orgs__item_sm{
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: 160px;
+		margin: 19px 0;
+		h4{
+			font-size: 14px;
+			margin-top: 12px;
+		}
+	}
+	img{vertical-align: top;}
+	h4{
+		font-size: 18px;
+		margin: 16px 0 -2px;
+	}
+	.orgs__post{
+		color: #677781;
+		margin-bottom: 6px;
+		line-height: 1.2;
+	}
+	p{
+		font-size: 13px;
+		margin: 0 0 4px;
+	}
+	a{
+		color: #0099d4;
+		text-decoration: none;
+		&:hover{text-decoration: underline;}
 	}
 }
