@@ -6,7 +6,7 @@
 
 * { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
 
-body { font-family: Arial,sans-serif; font-weight: normal; font-size: 14px; line-height: 1.4; color: #1f2224; background: #f5f5f5; }
+body { font-family: Arial,sans-serif; font-weight: normal; font-size: 14px; line-height: 1.4; color: #1f2224; background: #f5f5f5; padding-top: 77px; }
 
 a img, fieldset { border: none; }
 
@@ -62,7 +62,7 @@ header, footer, nav, aside { display: block; }
 .link-more_bd:active { line-height: 31px; }
 .link-more_bd:active span { border: 0; }
 
-.header { height: 77px; background: #000; min-width: 962px; }
+.header { height: 77px; background: #000; min-width: 962px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
 
 .logo { float: left; margin: 17px 33px 0 -12px; background: url('../img/icons-sa3dfac0df0.png') 0 0 no-repeat; width: 148px; height: 44px; }
 .logo a { display: block; height: 100%; }

@@ -40,6 +40,7 @@ body{
 	line-height:1.4;
 	color: #1f2224;
 	background: #f5f5f5;
+	padding-top: 77px;
 }
 // resets
 a img,fieldset{
@@ -221,7 +222,12 @@ header,footer, nav, aside{display: block;}
 .header{
 	height: 77px;
 	background: #000;
-	min-width: 962px
+	min-width: 962px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
 }
 .logo{
 	float: left;
