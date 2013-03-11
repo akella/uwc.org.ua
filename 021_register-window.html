@@ -8,6 +8,8 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<meta name="viewport" content="width=device-width"/>
 	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -30,7 +32,7 @@
 			<li class="is-active"><a href="#" class="lang__ukr">ukr</a></li>
 			<li><a href="#" class="lang__ru">ru</a></li>
 		</ul>
-		<a href="#" class="member-login">Вхід для учасників</a>
+		<div class="member-login"><a href="#" class="js-member-login">Вхід для учасників</a></div>
 	</div>
 </header>
 <!-- END header-->
@@ -151,7 +153,7 @@
 
 		<!-- BEGIN  sidebar-->
 		<aside class="sidebar">
-			<a href="#" class="btn_sm">Стати учасником</a>
+			<a href="#" class="btn_sm js-btn_reg">Стати учасником</a>
 			<a href="#" class="banner"><img src="img/banner.png" alt=""></a>
 			<div class="banner-code"><a href="#" >Розмістити баннер у себе<br>на сайті</a></div>
 
@@ -257,7 +259,7 @@
 
 <div class="popup-wrap"></div>
 <!-- BEGIN popup -->
-<div class="popup">
+<div class="popup js-popup_entry">
 	<form action="#">
 		<h2 class="h2">Вхід для учасників</h2>
 		<div class="popup__social">

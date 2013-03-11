@@ -8,6 +8,8 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 	<meta name="viewport" content="width=device-width"/>
 	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -30,7 +32,7 @@
 			<li class="is-active"><a href="#" class="lang__ukr">ukr</a></li>
 			<li><a href="#" class="lang__ru">ru</a></li>
 		</ul>
-		<a href="#" class="member-login">Вхід для учасників</a>
+		<div class="member-login"><a href="#" class="js-member-login">Вхід для учасників</a></div>
 	</div>
 </header>
 <!-- END header-->
@@ -151,7 +153,7 @@
 
 		<!-- BEGIN  sidebar-->
 		<aside class="sidebar">
-			<a href="#" class="btn_sm">Стати учасником</a>
+			<a href="#" class="btn_sm js-btn_reg">Стати учасником</a>
 			<a href="#" class="banner"><img src="img/banner.png" alt=""></a>
 			<div class="banner-code"><a href="#" >Розмістити баннер у себе<br>на сайті</a></div>
 
@@ -257,17 +259,19 @@
 
 <div class="popup-wrap"></div>
 <!-- BEGIN popup -->
-<div class="popup popup_big">
+<div class="popup popup_big js-popup_reg">
 	<form action="#">
 		<div class="popup__col">
 			<h2 class="h2">Реєстрація<span>заповніть анкету для участі в чемпионаті</span></h2>
 			<div class="row">
 				<label>Ел. пошта</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
-			<div class="row">
+			<div class="row row_ver">
 				<label>Ім´я</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
 			<div class="row">
 				<label>Досвід роботи</label>
@@ -281,6 +285,7 @@
 			<div class="row">
 				<label>Місто</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
 		</div>
 		<div class="popup__col">
@@ -296,10 +301,12 @@
 			<div class="row">
 				<label>Пароль</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
-			<div class="row">
+			<div class="row row_err">
 				<label>Призвіще</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
 			<div class="row">
 				<label>Номінація</label>
@@ -319,10 +326,11 @@
 			<div class="row">
 				<label>Назва команди</label>
 				<input type="text" class="input">
+				<span class="input-err"></span>
 			</div>
 		</div>
 		<div class="row_btn">
-			<a href="#" class="link-right" >Вхід для учасників</a>
+			<a href="#" class="link-right js-member-login" >Вхід для учасників</a>
 			<input type="submit" value="Зареєструватись" class="btn_sm">
 		</div>
 	</form>

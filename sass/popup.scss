@@ -7,6 +7,8 @@
 	width: 100%;
 	background: #677781;
 	z-index: 15;
+	display: none;
+	opacity: 0.8;
 }
 .popup{
 	position: fixed;
@@ -18,6 +20,7 @@
 	padding:21px 32px 34px;
 	margin: -203px 0 0 -180px;
 	z-index: 20;
+	display: none;
 	.h2{
 		margin: 0 0 9px;
 	}
@@ -47,7 +50,10 @@
 		.in{@include sized-sprite($icons, 'in');}
 		.gp{@include sized-sprite($icons, 'gp');}
 	}
-	.row{margin-bottom: 22px;}
+	.row{
+		margin-bottom: 22px;
+		position: relative;
+	}
 	label{
 		font-size: 14px;
 		color: #1f2224;
@@ -68,6 +74,13 @@
 		text-decoration:none;
 		&:hover{border-color:transparent;}
 	}
+	.input-err{
+		position: absolute;
+		@include sized-sprite($icons, 'err');
+		bottom: 11px;
+		right: 10px;
+		display: none;
+	}
 	.row_check{
 		position: relative;
 		padding-top: 6px;
@@ -82,6 +95,11 @@
 			}
 		}
 	}
+	.row_err{
+		.input{border-color:#d94e4e;}
+		.input-err{display: block;}
+	}
+	.row_ver{.input{border-color:#00adef;}}
 	.check{
 		opacity: 0;
 		position: absolute;
