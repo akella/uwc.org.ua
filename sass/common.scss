@@ -40,7 +40,6 @@ body{
 	line-height:1.4;
 	color: #1f2224;
 	background: #f5f5f5;
-	padding-top: 77px;
 }
 // resets
 a img,fieldset{
@@ -78,7 +77,7 @@ header,footer, nav, aside{display: block;}
 		}
 	}
 }
-
+.wrapper{padding-top: 77px;}
 .in{
 	margin: 0 auto;
 	width: 962px;
