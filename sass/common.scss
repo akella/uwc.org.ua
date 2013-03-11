@@ -280,13 +280,95 @@ header,footer, nav, aside{display: block;}
 }
 .member-login{
 	float: right;
-	color: #38bbff;
 	font-size: 13px;
-	text-decoration: none;
-	border-bottom:1px dotted;
-	margin: 27px 13px 0 0;
-	&:hover{
-		border: 0;
+	margin-top: 21px;
+	color:#fff;
+	height: 50px;
+	padding: 6px 11px 0;
+	max-width: 135px;
+	a{
+		color: #38bbff;
+		text-decoration: none;
+		border-bottom:1px dotted;
+		display: inline-block;
+		margin: 0 0 0 4px;
+		&:hover{
+			border: 0;
+		}
+	}
+	&.is-active{
+		background: #1f2224;
+	}
+}
+
+
+//user-block
+.user-block{
+	background: #1f2224;
+	font-size: 13px;
+	color: #aab5bd;
+	padding: 18px 0;
+	.in{position: relative;}
+	@extend %clr;
+	.download-task{
+		float: left;
+		color: #38bbff;
+		text-decoration: none;
+		border-bottom:1px solid #295f7c;
+		position: relative;
+		margin-left: 18px;
+		&:hover{border-color:transparent;}
+		i{
+			@include sized-sprite($icons, 'load2');
+			display: block;
+			left: -18px;
+			top: 3px;
+			position: absolute;
+		}
+	}
+	.resume{
+		float: left;
+		margin: -2px 0 0 63px;
+		.resume__state{
+			color: #bc3a13;
+		}
+		.resume__lin, .resume__form{
+			display: inline-block;
+			color: #fff;
+			line-height: 23px;
+			padding: 0 7px;
+			text-decoration: none;
+			border-radius:3px;
+			margin: 0 0 0 5px;
+		}
+		.resume__lin{
+			@include background-image(linear-gradient(#2189bb, #006294));
+			&:hover{
+				@include background-image(linear-gradient(#006294, #2189bb));
+			}
+		}
+		.resume__form{
+			@include background-image(linear-gradient(#717d87, #515d67));
+			&:hover{
+				@include background-image(linear-gradient(#515d67, #717d87));
+			}
+		}
+	}
+	.user-block__close{
+		@include sized-sprite($icons, 'close_min');
+		position: absolute;
+		top:4px;
+		right:-28px;
+		&:hover{opacity: 0.7;}
+	}
+	.user-block__link{
+		float: right;
+		border-bottom:1px dotted;
+		margin: 0 12px;
+		text-decoration: none;
+		&:hover{
+			border-color:transparent;
+		}
 	}
 }
 
