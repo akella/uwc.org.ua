@@ -6,7 +6,7 @@
 
 .input { height: 35px; border: 1px solid #aab5bd; border-radius: 3px; width: 274px; padding: 0 10px; }
 
-.popup { position: fixed; top: 50%; left: 50%; background: #f5f5f5; border-radius: 15px; width: 296px; padding: 21px 32px 34px; margin: -203px 0 0 -180px; z-index: 20; display: none; }
+.popup { position: fixed; top: 50%; left: 50%; background: #f5f5f5; border-radius: 15px; width: 296px; padding: 21px 32px 34px; margin: -230px 0 0 -180px; z-index: 20; display: none; }
 .popup .h2 { margin: 0 0 9px; }
 .popup .popup__social { margin-bottom: 27px; }
 .popup .popup__social .popup__social-text { float: left; color: #7b8992; font-size: 12px; }
