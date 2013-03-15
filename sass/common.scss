@@ -203,11 +203,12 @@ div.wrapper_user{padding-top: 107px;}
 	float: left;
 	margin: 8px 33px 0 -10px;
 	@include sized-sprite($icons, 'logo');
-	@extend %hide-text;
 	a{
 		display: block;
 		height: 100%;
-		color:transparent;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
 	}
 }
 %nav{
@@ -243,7 +244,9 @@ div.wrapper_user{padding-top: 107px;}
 	}
 	a{
 		display: block;
-		@extend %hide-text;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
 		opacity: 0.4;
 		&:hover{opacity: 0.6;}
 	}
@@ -365,7 +368,9 @@ div.wrapper_user{padding-top: 107px;}
 	z-index: 10;
 	a{
 		display: block;
-		@extend %hide-text;
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
 		margin: 12px 6px;
 	}
 	.vk{@include sized-sprite($icons, 'vk2');}

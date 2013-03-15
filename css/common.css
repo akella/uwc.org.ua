@@ -1,5 +1,3 @@
-.logo, .lang a, .social-float a { font: 0/0 a; text-shadow: none; color: transparent; }
-
 .user-block { *zoom: 1; }
 .user-block:before, .user-block:after { content: " "; display: table; }
 .user-block:after { clear: both; }
@@ -69,7 +67,7 @@ div.wrapper_user { padding-top: 107px; }
 .header { height: 50px; background: #000; min-width: 982px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
 
 .logo { float: left; margin: 8px 33px 0 -10px; background: url('../img/icons-s7dff960127.png') 0 -54px no-repeat; width: 121px; height: 36px; }
-.logo a { display: block; height: 100%; color: transparent; }
+.logo a { display: block; height: 100%; font: 0/0 a; text-shadow: none; color: transparent; }
 
 .globalnav, .subnav { float: left; }
 .globalnav ul, .subnav ul { float: left; }
@@ -83,7 +81,7 @@ div.wrapper_user { padding-top: 107px; }
 
 .lang { float: left; margin: 16px 0 0 45px; }
 .lang li { float: left; list-style: none; margin: 0 12px 0 0; }
-.lang a { display: block; opacity: 0.4; }
+.lang a { display: block; font: 0/0 a; text-shadow: none; color: transparent; opacity: 0.4; }
 .lang a:hover { opacity: 0.6; }
 .lang .lang__ukr { background: url('../img/icons-s7dff960127.png') 0 -735px no-repeat; width: 16px; height: 16px; }
 .lang .lang__ru { background: url('../img/icons-s7dff960127.png') 0 -819px no-repeat; width: 16px; height: 16px; }
@@ -112,7 +110,7 @@ div.wrapper_user { padding-top: 107px; }
 .user-block .user-block__link:hover { border-color: transparent; }
 
 .social-float { background: #00adef; position: fixed; top: 50%; right: 0; margin-top: -57px; z-index: 10; }
-.social-float a { display: block; margin: 12px 6px; }
+.social-float a { display: block; font: 0/0 a; text-shadow: none; color: transparent; margin: 12px 6px; }
 .social-float .vk { background: url('../img/icons-s7dff960127.png') 0 -228px no-repeat; width: 22px; height: 22px; }
 .social-float .vk:hover { background: url('../img/icons-s7dff960127.png') 0 -196px no-repeat; width: 22px; height: 22px; }
 .social-float .fb { background: url('../img/icons-s7dff960127.png') 0 -325px no-repeat; width: 22px; height: 23px; }

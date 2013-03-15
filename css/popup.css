@@ -1,5 +1,3 @@
-.popup .popup__social a { font: 0/0 a; text-shadow: none; color: transparent; }
-
 .popup .popup__social { *zoom: 1; }
 .popup .popup__social:before, .popup .popup__social:after { content: " "; display: table; }
 .popup .popup__social:after { clear: both; }
@@ -14,7 +12,7 @@
 .popup .popup__social .popup__social-text { float: left; color: #7b8992; font-size: 12px; }
 .popup .popup__social ul { float: left; padding: 7px 0 0 7px; }
 .popup .popup__social li { float: left; list-style: none; margin-left: 10px; }
-.popup .popup__social a { display: block; }
+.popup .popup__social a { display: block; font: 0/0 a; text-shadow: none; color: transparent; }
 .popup .popup__social .fb { background: url('../img/icons-s7dff960127.png') 0 -390px no-repeat; width: 22px; height: 22px; }
 .popup .popup__social .vk { background: url('../img/icons-s7dff960127.png') 0 -260px no-repeat; width: 22px; height: 22px; }
 .popup .popup__social .in { background: url('../img/icons-s7dff960127.png') 0 -358px no-repeat; width: 22px; height: 22px; }

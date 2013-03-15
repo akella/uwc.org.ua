@@ -50,7 +50,9 @@
 		}
 		a{
 			display: block;
-			@extend %hide-text;
+			font: 0/0 a;
+			text-shadow: none;
+			color: transparent;
 		}
 		.fb{@include sized-sprite($icons, 'fb');}
 		.vk{@include sized-sprite($icons, 'vk');}
