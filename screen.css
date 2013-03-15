@@ -15,9 +15,9 @@ a { color: #38bbff; }
 
 header, footer, nav, aside { display: block; }
 
-div.wrapper { padding-top: 77px; }
+div.wrapper { padding-top: 50px; }
 
-div.wrapper_user { padding-top: 134px; }
+div.wrapper_user { padding-top: 107px; }
 
 .in { margin: 0 auto; width: 962px; }
 
@@ -67,9 +67,9 @@ div.wrapper_user { padding-top: 134px; }
 .link-more_bd:active { line-height: 31px; }
 .link-more_bd:active span { border: 0; }
 
-.header { height: 77px; background: #000; min-width: 982px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
+.header { height: 50px; background: #000; min-width: 982px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
 
-.logo { float: left; margin: 17px 33px 0 -12px; background: url('../img/icons-s7a133ecee4.png') 0 0 no-repeat; width: 148px; height: 44px; }
+.logo { float: left; margin: 7px 33px 0 -12px; background: url('../img/icons-s7a133ecee4.png') 0 0 no-repeat; width: 148px; height: 44px; }
 .logo a { display: block; height: 100%; }
 
 .globalnav, .subnav { float: left; }
@@ -78,11 +78,11 @@ div.wrapper_user { padding-top: 134px; }
 .globalnav a, .subnav a { display: block; color: #fff; text-decoration: none; }
 .globalnav a:hover, .subnav a:hover { color: #fef200; }
 
-.globalnav li { font-size: 13px; line-height: 72px; }
-.globalnav a { padding: 0 13px 5px; }
+.globalnav li { font-size: 13px; line-height: 50px; }
+.globalnav a { padding: 0 13px; }
 .globalnav a:hover { background: #0d0c0c; }
 
-.lang { float: left; margin: 31px 0 0 45px; }
+.lang { float: left; margin: 16px 0 0 45px; }
 .lang li { float: left; list-style: none; margin: 0 12px 0 0; }
 .lang a { display: block; opacity: 0.4; }
 .lang a:hover { opacity: 0.6; }
@@ -90,12 +90,12 @@ div.wrapper_user { padding-top: 134px; }
 .lang .lang__ru { background: url('../img/icons-s7a133ecee4.png') 0 -773px no-repeat; width: 16px; height: 16px; }
 .lang .is-active a { opacity: 1; }
 
-.member-login { float: right; font-size: 13px; margin-top: 21px; color: #fff; height: 50px; padding: 6px 11px 0; max-width: 135px; }
+.member-login { float: right; font-size: 13px; margin-top: 8px; color: #fff; height: 36px; padding: 6px 11px 0; max-width: 135px; }
 .member-login a { color: #38bbff; text-decoration: none; border-bottom: 1px dotted; display: inline-block; margin: 0 0 0 4px; }
 .member-login a:hover { border: 0; }
 .member-login.is-active { background: #1f2224; }
 
-.user-block { background: #1f2224; font-size: 13px; color: #aab5bd; padding: 18px 0; position: fixed; top: 77px; left: 0; width: 100%; min-width: 982px; z-index: 10; }
+.user-block { background: #1f2224; font-size: 13px; color: #aab5bd; padding: 12px 0; position: fixed; top: 50px; left: 0; width: 100%; min-width: 982px; z-index: 10; }
 .user-block .in { position: relative; }
 .user-block .download-task { float: left; color: #38bbff; text-decoration: none; border-bottom: 1px solid #295f7c; position: relative; margin-left: 18px; }
 .user-block .download-task:hover { border-color: transparent; }

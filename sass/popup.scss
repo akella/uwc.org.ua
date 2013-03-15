@@ -10,6 +10,13 @@
 	display: none;
 	opacity: 0.8;
 }
+.input{
+	height: 35px;
+	border:1px solid #aab5bd;
+	border-radius:3px;
+	width: 296px - 22px;
+	padding: 0 10px;
+}
 .popup{
 	position: fixed;
 	top:50%;
@@ -59,13 +66,6 @@
 		color: #1f2224;
 		display: block;
 		margin-bottom: 10px;
-	}
-	.input{
-		height: 35px;
-		border:1px solid #aab5bd;
-		border-radius:3px;
-		width: 296px - 22px;
-		padding: 0 10px;
 	}
 	.link-right{
 		float: right;
@@ -140,7 +140,7 @@
 .popup_big{
 	width: 700px - 22px;
 	padding: 21px 11px;
-	margin: -280px 0 0 -350px;
+	margin: -301px 0 0 -350px;
 	.popup__col{
 		float: left;
 		padding: 0 21px;
@@ -151,7 +151,7 @@
 			font-size: 12px;
 			display: block;
 			color: #7b8992;
-			font-family: Arial, sans-serif;
+			font-family: Arial,Helvetica,sans-serif;
 			margin-top: -2px;
 		}
 	}
@@ -214,6 +214,7 @@
 			left:0;
 			width: 193px;
 			height: 37px;
+			z-index: 3;
 		}
 		.select__arr{
 			@include sized-sprite($icons, 'select-arr');

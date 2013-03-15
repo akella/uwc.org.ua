@@ -3,7 +3,7 @@
 *{margin:0;padding:0;-webkit-text-size-adjust: none; }
 body{
 	font: {
-		family: Arial,sans-serif;
+		family: Arial,Helvetica,sans-serif;
 		weight: normal;
 		size: 14px;
 	}
@@ -47,8 +47,8 @@ header,footer, nav, aside{display: block;}
 		}
 	}
 }
-.wrapper{padding-top: 77px;}
-.wrapper_user{padding-top: 134px;}
+div.wrapper{padding-top: 50px;}
+div.wrapper_user{padding-top: 107px;}
 .in{
 	margin: 0 auto;
 	width: 962px;
@@ -190,9 +190,9 @@ header,footer, nav, aside{display: block;}
 
 //header
 .header{
-	height: 77px;
+	height: 50px;
 	background: #000;
-	min-width: 962px;
+	min-width: 982px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -201,12 +201,13 @@ header,footer, nav, aside{display: block;}
 }
 .logo{
 	float: left;
-	margin: 17px 33px 0 -12px;
+	margin: 8px 33px 0 -10px;
 	@include sized-sprite($icons, 'logo');
 	@extend %hide-text;
 	a{
 		display: block;
 		height: 100%;
+		color:transparent;
 	}
 }
 %nav{
@@ -227,14 +228,14 @@ header,footer, nav, aside{display: block;}
 	@extend %nav;
 	li{
 		font-size: 13px;
-		line-height: 72px;
+		line-height: 50px;
 	}
-	a{padding: 0 13px 5px;}
+	a{padding: 0 13px;}
 	a:hover{background: #0d0c0c;}
 }
 .lang{
 	float: left;
-	margin: 31px 0 0 45px;
+	margin: 16px 0 0 45px;
 	li{
 		float: left;
 		list-style: none;
@@ -257,9 +258,9 @@ header,footer, nav, aside{display: block;}
 .member-login{
 	float: right;
 	font-size: 13px;
-	margin-top: 21px;
+	margin-top: 8px;
 	color:#fff;
-	height: 50px;
+	height: 36px;
 	padding: 6px 11px 0;
 	max-width: 135px;
 	a{
@@ -283,12 +284,12 @@ header,footer, nav, aside{display: block;}
 	background: #1f2224;
 	font-size: 13px;
 	color: #aab5bd;
-	padding: 18px 0;
+	padding: 12px 0;
 	position: fixed;
-	top:77px;
+	top:50px;
 	left: 0;
 	width: 100%;
-	min-width: 962px;
+	min-width: 982px;
 	z-index: 10;
 	.in{position: relative;}
 	@extend %clr;
@@ -379,7 +380,7 @@ header,footer, nav, aside{display: block;}
 //main
 .main{
 	background: #f5f5f5;
-	min-width: 962px;
+	min-width: 982px;
 	display: inline-block;
 	width: 100%;
 }
@@ -388,7 +389,7 @@ header,footer, nav, aside{display: block;}
 .content{
 	float: left;
 	width: 634px;
-	padding: 25px 0 120px;
+	padding: 25px 0 50px;
 }
 .content__text{
 	h1{
@@ -584,7 +585,7 @@ header,footer, nav, aside{display: block;}
 
 //social
 .social{
-	min-width: 962px;
+	min-width: 982px;
 	padding: 42px 0 71px;
 	background: #fff;
 	overflow: hidden;
@@ -608,7 +609,7 @@ header,footer, nav, aside{display: block;}
 	padding: 35px 0 40px;
 	text-align: center;
 	background: #1f2224;
-	min-width: 962px;
+	min-width: 982px;
 	p{
 		color: #7b8992;
 		font-size: 12px;
@@ -627,7 +628,7 @@ header,footer, nav, aside{display: block;}
 .footer-nav{
 	background: #282c2e;
 	height: 66px;
-	min-width: 962px
+	min-width: 982px
 }
 .subnav{
 	@extend %nav;
@@ -661,7 +662,7 @@ header,footer, nav, aside{display: block;}
 	background: #000;
 	overflow: hidden;
 	width: 100%;
-	min-width: 962px;
+	min-width: 982px;
 	padding: 33px 0;
 	line-height: 1.385;
 	.footer__email{

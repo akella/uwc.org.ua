@@ -19,16 +19,16 @@
 .time-line { position: relative; overflow: hidden; margin: 31px 0 0; padding: 17px 0 0; }
 .time-line .time-line__line { background: #aab5bd; width: 2px; height: 100%; position: absolute; bottom: 0; left: 223px; }
 .time-line .time-line__item { display: inline-block; position: relative; width: 635px; padding: 24px 0; margin-bottom: 24px; border-radius: 3px; }
-.time-line .time-line__item:before { position: absolute; content: ''; background: #aab5bd; width: 2px; height: 200%; position: absolute; bottom: 43px; left: 223px; }
+.time-line .time-line__item:before { position: absolute; content: ''; background: #aab5bd; width: 2px; height: 200%; position: absolute; bottom: 55px; left: 223px; }
 .time-line .time-line__date { float: left; width: 193px; text-align: right; margin: 3px 0 0 10px; color: #896e5d; }
 .time-line .time-line__event { float: right; font-size: 13px; color: #7b8992; width: 379px; margin-right: 10px; }
 .time-line .time-line__event strong { font-weight: normal; display: block; font-size: 18px; color: #1f2224; }
-.time-line .time-line__point { background: url('../img/icons-s256d09cf31.png') 0 -868px no-repeat; width: 10px; height: 18px; left: 219px; top: 30px; position: absolute; z-index: 10; }
-.time-line .future:before { background: #dfe3e6; z-index: 8; }
-.time-line .future .time-line__event, .time-line .future .time-line__event strong, .time-line .future .time-line__date { color: #aab5bd; }
-.time-line .future .time-line__point { background: url('../img/icons-s256d09cf31.png') 0 -840px no-repeat; width: 10px; height: 18px; }
+.time-line .time-line__point { background: url('../img/icons-s7dff960127.png') 0 -940px no-repeat; width: 10px; height: 18px; left: 219px; top: 30px; position: absolute; z-index: 5; }
+.time-line .past:before { background: #dfe3e6; z-index: 3; }
+.time-line .past .time-line__event, .time-line .past .time-line__event strong, .time-line .past .time-line__date { color: #aab5bd; }
+.time-line .past .time-line__point { background: url('../img/icons-s7dff960127.png') 0 -912px no-repeat; width: 10px; height: 18px; }
 .time-line .present { background: #fff; }
-.time-line .present .time-line__point { background: url('../img/icons-s256d09cf31.png') 0 -812px no-repeat; width: 10px; height: 18px; }
+.time-line .present .time-line__point { background: url('../img/icons-s7dff960127.png') 0 -884px no-repeat; width: 10px; height: 18px; }
 .time-line .present .time-line__event strong { color: #bc3a13; }
 
 .reg-text { text-align: center; border: 1px solid #dedacc; padding: 19px 0 23px; margin-bottom: 21px; }
