@@ -119,14 +119,6 @@
 			margin: 9px 0 0;
 		}
 	}
-	.btn_enter{
-		@extend %btn;
-		height: 36px;
-		width: 126px;
-		font-size: 17px;
-		color: #1f2224;
-		@include background-image(linear-gradient(#d8dee3, #b8bec3));
-	}
 	.popup__close{
 		@include sized-sprite($icons, 'close');
 		position: absolute;

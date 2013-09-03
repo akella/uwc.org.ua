@@ -43,7 +43,7 @@
 .reviews .reviews__photo { height: 80px; width: 80px; border-radius: 50%; border: 6px solid #d4d0c3; margin: 0 auto 20px; }
 .reviews blockquote { font-style: italic; margin-bottom: 22px; }
 .reviews blockquote p { font-size: 15px; margin: 0 0 17px; color: #655e4f; line-height: 1.46; }
-.reviews blockquote footer { font-size: 11px; color: #938c7a; }
+.reviews blockquote footer, .reviews blockquote cite { font-size: 11px; color: #938c7a; }
 .reviews blockquote strong { color: #886d5d; display: block; }
 
 .reviews_mid .reviews__item, .reviews_big .reviews__item { display: inline-block; vertical-align: top; }

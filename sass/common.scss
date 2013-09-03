@@ -70,6 +70,7 @@ div.wrapper_user{padding-top: 107px;}
 		background: #fff51b;
 		color:#3d3a00;
 		@include background-image(linear-gradient(#fff51b, #c8be00));
+		box-shadow:0 0 0 1px rgba(188,179,18,.55) inset;
 	}
 	&:active{
 		background: #e4da00;
@@ -103,6 +104,14 @@ div.wrapper_user{padding-top: 107px;}
 	font-size: 21px;
 	width: 220px;
 	box-shadow:0 1px 0 rgba(white,.3) inset, 0 0 0 4px rgba(0,0,0,.5);
+}
+.btn_enter{
+	@extend %btn;
+	height: 36px;
+	width: 126px;
+	font-size: 17px;
+	color: #1f2224;
+	@include background-image(linear-gradient(#d8dee3, #b8bec3));
 }
 .h1{
 	font-family: 'Open Sans', sans-serif;
@@ -638,25 +647,33 @@ div.wrapper_user{padding-top: 107px;}
 .subnav{
 	@extend %nav;
 	li{
-		line-height: 66px;
-		font-size: 12px;
-		margin-right: 28px;
+		line-height: 62px;
+		font-size: 15px;
+		margin-right: 34px;
+		letter-spacing: 0.04em;
+	}
+	a{
+		text-decoration: underline;
+		padding-top: 4px;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }
 .ch-num{
 	float: right;
-	margin: 23px 0 0 0;
+	margin: 21px 0 0 0;
 	li{
 		float: left;
-		font-size: 14px;
-		margin: 0 7px;
+		font-size: 15px;
+		margin: 0 0 0 14px;
 		list-style: none;
 	}
 	a{
 		color: #00adef;
-		text-decoration: none;
 		&:hover{
-			color: #feef00;
+			color: #fff;
+			text-decoration: none;
 		}
 	}
 }
