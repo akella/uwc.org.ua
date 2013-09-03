@@ -270,6 +270,7 @@ div.wrapper_user { padding-top: 107px; }
 .reviews blockquote { font-style: italic; margin-bottom: 22px; }
 .reviews blockquote p { font-size: 15px; margin: 0 0 17px; color: #655e4f; line-height: 1.46; }
 .reviews blockquote footer, .reviews blockquote cite { font-size: 11px; color: #938c7a; }
+.reviews blockquote cite { display: block; }
 .reviews blockquote strong { color: #886d5d; display: block; }
 
 .reviews_mid .reviews__item, .reviews_big .reviews__item { display: inline-block; vertical-align: top; }
