@@ -66,9 +66,9 @@ div.wrapper_user { padding-top: 107px; }
 .link-more_bd:active { line-height: 31px; }
 .link-more_bd:active span { border: 0; }
 
-.header { height: 50px; background: #000; min-width: 982px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
+.header { height: 65px; background: #000; min-width: 982px; position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
 
-.logo { float: left; margin: 8px 33px 0 -10px; background: url('../img/icons-s8bf0fbaf5f.png') 0 -729px no-repeat; width: 121px; height: 36px; }
+.logo { float: left; margin: 0 33px 0 -10px; margin-top: 14.5px; background: url('../img/icons-s8bf0fbaf5f.png') 0 -729px no-repeat; width: 121px; height: 36px; }
 .logo a { display: block; height: 100%; font: 0/0 a; text-shadow: none; color: transparent; }
 
 .globalnav, .subnav { float: left; }
@@ -77,11 +77,11 @@ div.wrapper_user { padding-top: 107px; }
 .globalnav a, .subnav a { display: block; color: #fff; text-decoration: none; }
 .globalnav a:hover, .subnav a:hover { color: #fef200; }
 
-.globalnav li { font-size: 13px; line-height: 50px; }
+.globalnav li { font-size: 13px; line-height: 65px; }
 .globalnav a { padding: 0 13px; }
 .globalnav a:hover { background: #0d0c0c; }
 
-.lang { float: left; margin: 16px 0 0 45px; }
+.lang { float: left; margin-left: 45px; margin-top: 24.5px; }
 .lang li { float: left; list-style: none; margin: 0 12px 0 0; }
 .lang a { display: block; font: 0/0 a; text-shadow: none; color: transparent; opacity: 0.4; }
 .lang a:hover { opacity: 0.6; }
@@ -89,7 +89,7 @@ div.wrapper_user { padding-top: 107px; }
 .lang .lang__ru { background: url('../img/icons-s8bf0fbaf5f.png') 0 -356px no-repeat; width: 16px; height: 16px; }
 .lang .is-active a { opacity: 1; }
 
-.member-login { float: right; font-size: 13px; margin-top: 8px; color: #fff; height: 36px; padding: 6px 11px 0; max-width: 135px; }
+.member-login { float: right; font-size: 13px; margin-top: 8px; color: #fff; height: 43.5px; padding: 0 11px; padding-top: 13.5px; max-width: 135px; }
 .member-login a { color: #38bbff; text-decoration: none; border-bottom: 1px dotted; display: inline-block; margin: 0 0 0 4px; }
 .member-login a:hover { border: 0; }
 .member-login.is-active { background: #1f2224; }

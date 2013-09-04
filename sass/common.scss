@@ -197,9 +197,11 @@ div.wrapper_user{padding-top: 107px;}
 	}
 }
 
-//header
+$header_height : 65px;
+
+//header-
 .header{
-	height: 50px;
+	height: $header_height;
 	background: #000;
 	min-width: 982px;
 	position: fixed;
@@ -210,7 +212,8 @@ div.wrapper_user{padding-top: 107px;}
 }
 .logo{
 	float: left;
-	margin: 8px 33px 0 -10px;
+	margin: 0 33px 0 -10px;
+	margin-top: ($header_height - 36px)/2;
 	@include sized-sprite($icons, 'logo');
 	a{
 		display: block;
@@ -238,14 +241,15 @@ div.wrapper_user{padding-top: 107px;}
 	@extend %nav;
 	li{
 		font-size: 13px;
-		line-height: 50px;
+		line-height: $header_height;
 	}
 	a{padding: 0 13px;}
 	a:hover{background: #0d0c0c;}
 }
 .lang{
 	float: left;
-	margin: 16px 0 0 45px;
+	margin-left: 45px;
+	margin-top: ($header_height - 16px)/2;
 	li{
 		float: left;
 		list-style: none;
@@ -272,8 +276,9 @@ div.wrapper_user{padding-top: 107px;}
 	font-size: 13px;
 	margin-top: 8px;
 	color:#fff;
-	height: 36px;
-	padding: 6px 11px 0;
+	height: ($header_height - 18px)/2 + 20px;
+	padding: 0 11px;
+	padding-top: ($header_height - 18px)/2 - 10px;
 	max-width: 135px;
 	a{
 		color: #38bbff;
