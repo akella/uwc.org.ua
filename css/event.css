@@ -16,7 +16,7 @@
 
 .reasons__list { padding: 47px 0 0; list-style: none; font-size: 15px; margin: 0 -11px; overflow: hidden; }
 .reasons__list li { float: left; margin: 0 11px 45px; padding-left: 84px; position: relative; }
-.reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-s7d5cf9b1ef.png') 0 -100px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
+.reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-sec0c9d54ea.png') 0 -59px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
 
 .reasons__item-hold { display: table-cell; vertical-align: middle; min-width: 222px; height: 42px; }
 
@@ -36,11 +36,31 @@
 
 .forum-points__title { font-family: 'Open Sans',sans-serif; font-size: 20px; font-weight: 300; color: #000; line-height: 1.1; margin-bottom: 12px; min-height: 44px; }
 
-.experst { padding: 37px 0 64px; }
+.tickets { background: #ededed; padding: 30px 0 43px; }
+.tickets .in:after { content: " "; display: table; clear: both; }
+.tickets .h2 { float: left; line-height: 1.25; margin: 37px 0 0; }
 
-.experts__list { padding: 47px 0 0; list-style: none; text-align: center; margin: 0 -10px; }
-.experts__list li { display: inline-block; margin: 0 11px 11px; cursor: pointer; }
-.experts__list li:hover .expert__name { opacity: 1; -moz-transition: opacity 0.3s ease-in-out; -o-transition: opacity 0.3s ease-in-out; -webkit-transition: opacity 0.3s ease-in-out; -ms-transition: opacity 0.3s ease-in-out; transition: opacity 0.3s ease-in-out; }
+.price { float: right; width: 798px; }
+
+.price__header { position: relative; text-align: right; padding: 0 30px 8px 0; }
+
+.early-birds { position: absolute; background: url('../img/icons-sec0c9d54ea.png') 0 -215px no-repeat; width: 104px; height: 69px; font-size: 0; color: transparent; top: -8px; left: 187px; }
+
+.price__date { line-height: 1; display: inline-block; width: 60px; color: #7b8992; text-align: center; font-size: 15px; margin-right: 138px; }
+.price__date b { font-size: 20px; display: block; }
+
+.price__table { width: 100%; border-collapse: collapse; }
+.price__table th { font-weight: normal; font-size: 15px; line-height: 1.46; border: 1px solid #6cb5d0; width: 170px; border-right: none; }
+.price__table td { text-align: center; border: 1px solid #d6d6d6; border-width: 1px 1px 1px 0; border-right-color: #7b8992; height: 65px; vertical-align: middle; font-size: 32px; font-family: 'Open Sans',sans-serif; font-weight: bold; letter-spacing: 0.01em; width: 198px; color: #000; }
+.price__table td:last-child { border-right-color: #d6d6d6; }
+.price__table td sup { font-size: 14px; text-transform: uppercase; font-weight: bold; vertical-align: text-top; }
+.price__table .price__devider { background: url('../img/icons-sec0c9d54ea.png') 0 -985px no-repeat; width: 30px; height: 65px; border-right: 0; }
+
+.expert { padding: 37px 0 64px; }
+
+.expert__list { padding: 47px 0 0; list-style: none; text-align: center; margin: 0 -10px; }
+.expert__list li { display: inline-block; margin: 0 11px 11px; cursor: pointer; }
+.expert__list li:hover .expert__name { opacity: 1; -moz-transition: opacity 0.3s ease-in-out; -o-transition: opacity 0.3s ease-in-out; -webkit-transition: opacity 0.3s ease-in-out; -ms-transition: opacity 0.3s ease-in-out; transition: opacity 0.3s ease-in-out; }
 
 .expert__info, .expert__photo, .expert__name { width: 138px; border-radius: 50%; }
 
