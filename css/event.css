@@ -22,6 +22,7 @@
 
 .reg-block { background: url(../img/bg-reg.jpg) 50% 0 no-repeat; background-size: cover; height: 153px; text-align: center; display: table; width: 100%; }
 .reg-block .btn_sm_dark { width: 260px; }
+.reg-block p { font-size: 13px; color: #fff; margin: -11px 0 15px; }
 
 .reg-block__holder { display: table-cell; vertical-align: middle; height: 153px; width: 100%; }
 
