@@ -1,25 +1,37 @@
 @import "base";
-
+.h2_event{
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 20px;
+	position: relative;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	&:after{
+		position: absolute;
+		content:'';
+		width: 125px;
+		height: 1px;
+		bottom: 0;
+		left: 50%;
+		margin-left: -63px;
+		background: #e8e8e8;
+	}
+}
 .promo_event{
-	height: 401px;
+	height: 368px;
 	overflow: hidden;
-	.promo__img{
-		min-height: 401px;
-		width: 100%;
-		min-width: auto;
-	}
-	.promo__holder{
-		height: auto;
-	}
+	background: url("../img/top-event.jpg") 50% 0 no-repeat;
+	background-size: cover;
 	.slogan{
-		padding: 105px 0 50px;
+		padding: 90px 0 50px;
 		position: relative;
+		text-align: center;
 		&:before{
 			position: absolute;
 			content:'';
 			width: 232px;
 			height: 1px;
-			top: 63px;
+			top: 48px;
 			left: 50%;
 			margin-left: -116px;
 			background: #62615e;
@@ -65,36 +77,18 @@
 
 .reasons{
 	background: #fff;
-	padding: 30px 0 15px;
-	.h2{
-		text-align: center;
-		font-size: 36px;
-		padding-bottom: 20px;
-		position: relative;
-		&:after{
-			position: absolute;
-			content:'';
-			width: 125px;
-			height: 1px;
-			bottom: 0;
-			left: 50%;
-			margin-left: -63px;
-			background: #e8e8e8;
-		}
-	}
+	padding: 38px 0 15px;
 }
 .reasons__list{
-	padding: 30px 0 0;
+	padding: 47px 0 0;
 	list-style: none;
 	font-size: 15px;
 	margin: 0 -11px;
 	overflow: hidden;
 	li{
 		float: left;
-		min-width: 306px - 84px;
-		min-height: 42px;
 		margin: 0 11px 45px;
-		padding-left: 82px;
+		padding-left: 84px;
 		position: relative;
 		&:before{
 			position: absolute;
@@ -105,6 +99,14 @@
 		}
 	}
 }
+.reasons__item-hold{
+	display: table-cell;
+	vertical-align: middle;
+	min-width: 306px - 84px;
+	height: 42px;
+}
+
+
 .reg-block{
 	background: url(../img/bg-reg.jpg) 50% 0 no-repeat;
 	background-size: cover;
@@ -112,10 +114,46 @@
 	text-align: center;
 	display: table;
 	width: 100%;
+	.btn_sm_dark{
+		width: 260px;
+	}
 }
 .reg-block__holder{
 	display: table-cell;
 	vertical-align: middle;
 	height: 153px;
 	width: 100%;
+}
+
+.forum-points{
+	padding: 35px 0 0;
+}
+.forum-points__list{
+	text-align: center;
+	font-size: 0;
+	margin: 0 -12px;
+	li{
+		display: inline-block;
+		vertical-align: top;
+		list-style: none;
+		width: 220px;
+		font-size: 13px;
+		margin: 39px 54px 55px;
+	}
+	p{
+		color: #7b8992;
+		line-height: 1.65em;
+	}
+}
+.forum-points__media{
+	height: 105px;
+}
+.forum-points__title{
+	font-family: 'Open Sans',sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #000;
+	line-height: 1.1;
+	margin-bottom: 12px;
+	min-height: 44px;
 }
