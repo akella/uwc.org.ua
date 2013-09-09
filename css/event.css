@@ -1,0 +1,24 @@
+.promo_event { height: 401px; overflow: hidden; }
+.promo_event .promo__img { min-height: 401px; width: 100%; min-width: auto; }
+.promo_event .promo__holder { height: auto; }
+.promo_event .slogan { padding: 105px 0 50px; position: relative; }
+.promo_event .slogan:before { position: absolute; content: ''; width: 232px; height: 1px; top: 63px; left: 50%; margin-left: -116px; background: #62615e; }
+.promo_event .event-date { text-align: center; font-size: 28px; color: #fff; font-family: 'Open Sans',sans-serif; font-weight: 600; }
+
+.amounts { background: #f5f5f5; text-align: center; padding: 37px 0 36px; font-size: 0; }
+.amounts li { display: inline-block; vertical-align: top; line-height: 1; list-style: none; color: #7b8992; font-size: 14px; width: 245px; border-left: 1px dotted #cac7c3; }
+.amounts li:first-child { border-left: none; }
+
+.amounts__num { font-size: 48px; color: #000; display: block; font-family: 'Open Sans',sans-serif; font-weight: 300; margin-bottom: 17px; }
+
+.reasons { background: #fff; padding: 30px 0 15px; }
+.reasons .h2 { text-align: center; font-size: 36px; padding-bottom: 20px; position: relative; }
+.reasons .h2:after { position: absolute; content: ''; width: 125px; height: 1px; bottom: 0; left: 50%; margin-left: -63px; background: #e8e8e8; }
+
+.reasons__list { padding: 30px 0 0; list-style: none; font-size: 15px; margin: 0 -11px; overflow: hidden; }
+.reasons__list li { float: left; min-width: 222px; min-height: 42px; margin: 0 11px 45px; padding-left: 82px; position: relative; }
+.reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-s153356e141.png') 0 -59px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
+
+.reg-block { background: url(../img/bg-reg.jpg) 50% 0 no-repeat; background-size: cover; height: 153px; text-align: center; display: table; width: 100%; }
+
+.reg-block__holder { display: table-cell; vertical-align: middle; height: 153px; width: 100%; }
