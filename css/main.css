@@ -47,10 +47,10 @@
 .reviews blockquote cite { display: block; }
 .reviews blockquote strong { color: #886d5d; display: block; }
 
-.reviews_mid .reviews__item, .reviews_big .reviews__item { display: inline-block; vertical-align: top; }
-.reviews_mid .reviews__photo, .reviews_big .reviews__photo { float: left; }
-.reviews_mid blockquote, .reviews_big blockquote { float: right; }
-.reviews_mid blockquote:before, .reviews_big blockquote:before { display: none; }
+.reviews_mid .reviews__item, .reviews_big .reviews__item, .reviews_event .reviews__item { display: inline-block; vertical-align: top; }
+.reviews_mid .reviews__photo, .reviews_big .reviews__photo, .reviews_event .reviews__photo { float: left; }
+.reviews_mid blockquote, .reviews_big blockquote, .reviews_event blockquote { float: right; }
+.reviews_mid blockquote:before, .reviews_big blockquote:before, .reviews_event blockquote:before { display: none; }
 
 .reviews_mid { min-width: 982px; overflow: hidden; padding: 33px 0 35px; }
 .reviews_mid .reviews__item { width: 331px; margin: 20px 77px 38px 0; }

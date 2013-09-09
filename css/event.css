@@ -35,3 +35,31 @@
 .forum-points__media { height: 105px; }
 
 .forum-points__title { font-family: 'Open Sans',sans-serif; font-size: 20px; font-weight: 300; color: #000; line-height: 1.1; margin-bottom: 12px; min-height: 44px; }
+
+.experst { padding: 37px 0 64px; }
+
+.experts__list { padding: 47px 0 0; list-style: none; text-align: center; margin: 0 -10px; }
+.experts__list li { display: inline-block; margin: 0 11px 11px; cursor: pointer; }
+.experts__list li:hover .expert__name { opacity: 1; -moz-transition: opacity 0.3s ease-in-out; -o-transition: opacity 0.3s ease-in-out; -webkit-transition: opacity 0.3s ease-in-out; -ms-transition: opacity 0.3s ease-in-out; transition: opacity 0.3s ease-in-out; }
+
+.expert__info, .expert__photo, .expert__name { width: 138px; border-radius: 50%; }
+
+.expert__photo, .expert__name { top: 0; left: 0; position: absolute; }
+
+.expert__info { position: relative; height: 138px; }
+
+.expert__photo { height: 138px; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+
+.expert__name { opacity: 0; height: 90px; padding-top: 48px; font-size: 16px; line-height: 1.375; color: #1f2224; font-weight: bold; background: rgba(245, 245, 245, 0.9); }
+
+.reviews_event { padding: 37px 0 0; overflow: hidden; }
+.reviews_event .h2_event:after { background: #c5c1b2; }
+.reviews_event .reviews__item { width: 380px; margin: 20px 68px 22px 0; }
+.reviews_event .reviews__list { padding-left: 62px; }
+.reviews_event .reviews__list:after { content: ""; display: block; clear: both; }
+.reviews_event blockquote { margin-top: 4px; width: 265px; }
+.reviews_event .link-more { margin-left: 144px; }
+
+.reviews__text { color: #655e4f; font-size: 13px; line-height: 1.69; text-align: center; padding: 23px 0 19px; }
+.reviews__text a { color: #009ad4; text-decoration: underline; }
+.reviews__text a:hover { text-decoration: none; }
