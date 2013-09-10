@@ -20,8 +20,10 @@
 .promo_event{
 	height: 368px;
 	overflow: hidden;
-	background: url("../img/top-event.jpg") 50% 0 no-repeat;
-	background-size: cover;
+	background: url("../img/top-event.jpg") no-repeat;
+	-webkit-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
 	.slogan{
 		padding: 90px 0 50px;
 		position: relative;
@@ -108,8 +110,10 @@
 
 
 .reg-block{
-	background: url(../img/bg-reg.jpg) 50% 0 no-repeat;
-	background-size: cover;
+	background: url(../img/bg-reg.jpg) no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
 	height: 153px;
 	text-align: center;
 	display: table;

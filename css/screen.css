@@ -445,7 +445,7 @@ div.wrapper_user { padding-top: 107px; }
 .h2_event { text-align: center; font-size: 36px; padding-bottom: 20px; position: relative; font-family: 'Open Sans',sans-serif; font-weight: 300; }
 .h2_event:after { position: absolute; content: ''; width: 125px; height: 1px; bottom: 0; left: 50%; margin-left: -63px; background: #e8e8e8; }
 
-.promo_event { height: 368px; overflow: hidden; background: url("../img/top-event.jpg") 50% 0 no-repeat; background-size: cover; }
+.promo_event { height: 368px; overflow: hidden; background: url("../img/top-event.jpg") no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
 .promo_event .slogan { padding: 90px 0 50px; position: relative; text-align: center; }
 .promo_event .slogan:before { position: absolute; content: ''; width: 232px; height: 1px; top: 48px; left: 50%; margin-left: -116px; background: #62615e; }
 .promo_event .event-date { text-align: center; font-size: 28px; color: #fff; font-family: 'Open Sans',sans-serif; font-weight: 600; }
@@ -464,7 +464,7 @@ div.wrapper_user { padding-top: 107px; }
 
 .reasons__item-hold { display: table-cell; vertical-align: middle; min-width: 222px; height: 42px; }
 
-.reg-block { background: url(../img/bg-reg.jpg) 50% 0 no-repeat; background-size: cover; height: 153px; text-align: center; display: table; width: 100%; }
+.reg-block { background: url(../img/bg-reg.jpg) no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; height: 153px; text-align: center; display: table; width: 100%; }
 .reg-block .btn_sm_dark { width: 260px; }
 .reg-block p { font-size: 13px; color: #fff; margin: -11px 0 15px; }
 
