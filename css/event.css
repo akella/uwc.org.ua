@@ -16,7 +16,7 @@
 
 .reasons__list { padding: 47px 0 0; list-style: none; font-size: 15px; margin: 0 -11px; overflow: hidden; }
 .reasons__list li { float: left; margin: 0 11px 45px; padding-left: 84px; position: relative; }
-.reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-sec0c9d54ea.png') 0 -59px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
+.reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-s0ff25bf3e5.png') 0 -179px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
 
 .reasons__item-hold { display: table-cell; vertical-align: middle; min-width: 222px; height: 42px; }
 
@@ -44,7 +44,7 @@
 
 .price__header { position: relative; text-align: right; padding: 0 30px 8px 0; }
 
-.early-birds { position: absolute; background: url('../img/icons-sec0c9d54ea.png') 0 -215px no-repeat; width: 104px; height: 69px; font-size: 0; color: transparent; top: -8px; left: 187px; }
+.early-birds { position: absolute; background: url('../img/icons-s0ff25bf3e5.png') 0 -100px no-repeat; width: 104px; height: 69px; font-size: 0; color: transparent; top: -8px; left: 187px; }
 
 .price__date { line-height: 1; display: inline-block; width: 60px; color: #7b8992; text-align: center; font-size: 15px; margin-right: 138px; }
 .price__date b { font-size: 20px; display: block; }
@@ -54,7 +54,7 @@
 .price__table td { text-align: center; border: 1px solid #d6d6d6; border-width: 1px 1px 1px 0; border-right-color: #7b8992; height: 65px; vertical-align: middle; font-size: 32px; font-family: 'Open Sans',sans-serif; font-weight: bold; letter-spacing: 0.01em; width: 198px; color: #000; }
 .price__table td:last-child { border-right-color: #d6d6d6; }
 .price__table td sup { font-size: 14px; text-transform: uppercase; font-weight: bold; vertical-align: text-top; }
-.price__table .price__devider { background: url('../img/icons-sec0c9d54ea.png') 0 -985px no-repeat; width: 30px; height: 65px; border-right: 0; }
+.price__table .price__devider { background: url('../img/icons-s0ff25bf3e5.png') 0 -451px no-repeat; width: 30px; height: 65px; border-right: 0; }
 
 .expert { padding: 37px 0 64px; }
 
