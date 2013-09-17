@@ -1,10 +1,25 @@
+.promo_master-class { height: 386px; padding-top: 48px; overflow: hidden; text-align: center; color: #fff; background: url("../img/top-master-class.jpg") no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
+.promo_master-class .slogan { line-height: 1.15; margin-bottom: 23px; padding: 0; position: relative; font-size: 48px; }
+.promo_master-class .promo__title { text-transform: uppercase; font-size: 15px; font-weight: 400; letter-spacing: 5px; display: block; margin-bottom: 18px; }
+.promo_master-class .promo__title:before, .promo_master-class .promo__title:after { background: url('../img/icons-se1f26f3f23.png') 0 -1246px no-repeat; width: 11px; height: 10px; content: ''; display: inline-block; position: relative; top: -1px; }
+.promo_master-class .promo__title:before { margin-right: 10px; }
+.promo_master-class .promo__title:after { margin-left: 5px; }
+.promo_master-class .promo__spiker { font-size: 20px; font-weight: 400; letter-spacing: 0.065em; margin-bottom: 27px; }
+.promo_master-class .promo__date { line-height: 1; background: url('../img/icons-se1f26f3f23.png') 0 0 no-repeat; width: 798px; height: 130px; margin: 0 auto; font-size: 17px; }
+.promo_master-class .promo__date strong { font-weight: 400; font-size: 42px; display: block; padding: 16px 0 2px; }
+.promo_master-class .promo__time { font-size: 20px; font-weight: bold; display: block; padding: 11px 0 0; }
+
+.master-class__top-text { width: 628px; margin: 0 auto; background: #f5f5f5; color: #1f2224; font-size: 16px; padding: 30px 45px; position: relative; }
+.master-class__top-text:before { position: absolute; top: -24px; border: 12px solid transparent; border-bottom-color: #f5f5f5; left: 50%; margin-left: -12px; content: ''; z-index: 5; }
+
+.reg-block_master-class { background: url(../img/bg-reg-master-class-.jpg) no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; height: 176px; text-align: center; display: table; width: 100%; }
+.reg-block_master-class .btn_sm_dark { width: 420px; }
+.reg-block_master-class p { font-size: 13px; color: #fff; margin: -11px 0 15px; }
+
+.reg-block__holder { display: table-cell; vertical-align: middle; height: 153px; width: 100%; }
+
 .h2_event { text-align: center; font-size: 36px; padding-bottom: 20px; position: relative; font-family: 'Open Sans',sans-serif; font-weight: 300; }
 .h2_event:after { position: absolute; content: ''; width: 125px; height: 1px; bottom: 0; left: 50%; margin-left: -63px; background: #e8e8e8; }
-
-.promo_event { height: 368px; overflow: hidden; background: url("../img/top-event.jpg") no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
-.promo_event .slogan { padding: 90px 0 50px; position: relative; text-align: center; }
-.promo_event .slogan:before { position: absolute; content: ''; width: 232px; height: 1px; top: 48px; left: 50%; margin-left: -116px; background: #62615e; }
-.promo_event .event-date { text-align: center; font-size: 28px; color: #fff; font-family: 'Open Sans',sans-serif; font-weight: 600; }
 
 .amounts { background: #f5f5f5; text-align: center; padding: 37px 0 36px; font-size: 0; }
 .amounts li { display: inline-block; vertical-align: top; line-height: 1; list-style: none; color: #7b8992; font-size: 14px; width: 245px; border-left: 1px dotted #cac7c3; }
@@ -19,12 +34,6 @@
 .reasons__list li:before { position: absolute; content: ''; background: url('../img/icons-se1f26f3f23.png') 0 -319px no-repeat; width: 39px; height: 37px; top: 2px; left: 28px; }
 
 .reasons__item-hold { display: table-cell; vertical-align: middle; min-width: 222px; height: 42px; }
-
-.reg-block { background: url(../img/bg-reg.jpg) no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; height: 153px; text-align: center; display: table; width: 100%; }
-.reg-block .btn_sm_dark { width: 260px; }
-.reg-block p { font-size: 13px; color: #fff; margin: -11px 0 15px; }
-
-.reg-block__holder { display: table-cell; vertical-align: middle; height: 153px; width: 100%; }
 
 .forum-points { padding: 35px 0 0; }
 
