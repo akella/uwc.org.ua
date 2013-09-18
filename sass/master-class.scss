@@ -223,13 +223,13 @@
 .uwc-help{
 	width: 962px;
 	margin: 0 auto;
-	padding: 33px 0 10;
+	padding: 33px 0 10px;
 }
 .uwc-help__title{
 	color: #814132;
 	font-size: 28px;
 	font-family: 'Open Sans',sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -265,3 +265,33 @@
 	}
 }
 
+.tell-friends{
+	border:1px solid #c3beac;
+	border-radius:5px;
+	width: 962px;
+	margin: 22px auto;
+	padding: 15px 0 18px;
+}
+.tell-friends__title{
+	font-size: 28px;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	margin-bottom: 11px;
+}
+.tell-friends__social{
+	width: 450px;
+	margin: 0 auto;
+}
+
+.partners_master-class{
+	padding: 25px 0 30px;
+	.partners__list{
+		text-align: center;
+		dt, dd{
+			display: inline-block;
+			margin: 0 23px;
+		}
+	}
+}
