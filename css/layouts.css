@@ -2,3 +2,5 @@
 .l { width: 100%; display: inline-block; }
 .l .l-col1 { float: left; width: 224px; }
 .l .l-col2 { float: right; width: 716px; }
+.l .l-col1_r { float: right; width: 224px; }
+.l .l-col2_l { float: left; width: 716px; }
