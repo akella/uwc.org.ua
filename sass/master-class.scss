@@ -159,9 +159,13 @@
 }
 
 .master-class-price{
+	margin-top: -9px;
+	padding: 0 0 18px;
 	li{
 		list-style: none;
-		vertical-align: middle;
+		vertical-align: top;
+		display: inline-block;
+		width: 227px;
 	}
 	strong{
 		display: block;
@@ -169,11 +173,25 @@
 		font-size: 13px;
 		color: #fffefe;
 	}
-	.price{
-		font-size: 32px;
+}
+.master-class-price__cost{
+	font-size: 32px;
+	color: #fff;
+	font-family: 'Open Sans',sans-serif;
+	line-height: 1;
+	margin-top: -7px;
+	display: block;
+	sup{
+		font-size: 18px;
+	}
+	b{
+		margin: 0 10px;
 	}
 }
-
+.master-class-price__free{
+	display: block;
+	margin-top: 7px;
+}
 .spiker{
 	background: #dedacc;
 	padding: 45px 0 50px;

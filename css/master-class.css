@@ -1,11 +1,11 @@
 .promo_master-class { height: 386px; padding-top: 48px; overflow: hidden; text-align: center; color: #fff; background: url("../img/top-master-class.jpg") no-repeat; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
 .promo_master-class .slogan { line-height: 1.15; margin-bottom: 23px; padding: 0; position: relative; font-size: 48px; height: 110px; }
 .promo_master-class .promo__title { text-transform: uppercase; font-size: 15px; font-weight: 400; letter-spacing: 5px; display: block; margin-bottom: 18px; font-family: 'Open Sans',sans-serif; }
-.promo_master-class .promo__title:before, .promo_master-class .promo__title:after { background: url('../img/icons-s6ef0b1e6a2.png') 0 -1370px no-repeat; width: 11px; height: 10px; content: ''; display: inline-block; position: relative; top: -1px; }
+.promo_master-class .promo__title:before, .promo_master-class .promo__title:after { background: url('../img/icons-s1ab0450a3f.png') 0 -1225px no-repeat; width: 11px; height: 10px; content: ''; display: inline-block; position: relative; top: -1px; }
 .promo_master-class .promo__title:before { margin-right: 10px; }
 .promo_master-class .promo__title:after { margin-left: 5px; }
 .promo_master-class .promo__spiker { font-size: 20px; font-weight: bold; letter-spacing: 0.065em; margin-bottom: 27px; font-family: 'Open Sans',sans-serif; }
-.promo_master-class .promo__date { font-family: 'Open Sans',sans-serif; line-height: 1; background: url('../img/icons-s6ef0b1e6a2.png') 0 -964px no-repeat; width: 798px; height: 130px; margin: 0 auto; font-size: 17px; }
+.promo_master-class .promo__date { font-family: 'Open Sans',sans-serif; line-height: 1; background: url('../img/icons-s1ab0450a3f.png') 0 0 no-repeat; width: 798px; height: 130px; margin: 0 auto; font-size: 17px; }
 .promo_master-class .promo__date strong { font-weight: 400; font-size: 42px; display: block; padding: 16px 0 2px; }
 .promo_master-class .promo__time { font-size: 20px; font-weight: bold; display: block; padding: 11px 0 0; }
 
@@ -32,9 +32,15 @@
 .reg-block_small .reg-block__holder { height: 132px; }
 .reg-block_small .btn_sm_dark { width: 380px; }
 
-.master-class-price li { list-style: none; vertical-align: middle; }
+.master-class-price { margin-top: -9px; padding: 0 0 18px; }
+.master-class-price li { list-style: none; vertical-align: top; display: inline-block; width: 227px; }
 .master-class-price strong { display: block; font-weight: normal; font-size: 13px; color: #fffefe; }
-.master-class-price .price { font-size: 32px; }
+
+.master-class-price__cost { font-size: 32px; color: #fff; font-family: 'Open Sans',sans-serif; line-height: 1; margin-top: -7px; display: block; }
+.master-class-price__cost sup { font-size: 18px; }
+.master-class-price__cost b { margin: 0 10px; }
+
+.master-class-price__free { display: block; margin-top: 7px; }
 
 .spiker { background: #dedacc; padding: 45px 0 50px; }
 
@@ -42,15 +48,15 @@
 
 .spiker__photo { width: 176px; height: 176px; -webkit-background-size: cover; -o-background-size: cover; background-size: cover; border-radius: 50%; margin: 0 auto 20px; position: relative; }
 .spiker__photo:before, .spiker__photo:after { position: absolute; content: ''; top: 83px; }
-.spiker__photo:before { left: -315px; background: url('../img/icons-s6ef0b1e6a2.png') 0 -215px no-repeat; width: 251px; height: 11px; }
-.spiker__photo:after { right: -315px; background: url('../img/icons-s6ef0b1e6a2.png') 0 -236px no-repeat; width: 251px; height: 11px; }
+.spiker__photo:before { left: -315px; background: url('../img/icons-s1ab0450a3f.png') 0 -1245px no-repeat; width: 251px; height: 11px; }
+.spiker__photo:after { right: -315px; background: url('../img/icons-s1ab0450a3f.png') 0 -1266px no-repeat; width: 251px; height: 11px; }
 
 .spiker__name { font-size: 42px; font-family: 'Open Sans',sans-serif; font-weight: 300; text-align: center; color: #896e5d; margin-bottom: 10px; }
 
 .spiker__activity { color: #938c7a; font-size: 14px; font-weight: normal; text-align: center; margin-bottom: 7px; }
 
 .spiker__about { color: #655e4f; font-size: 16px; line-height: 1.5; padding: 35px 250px 0; position: relative; }
-.spiker__about:before { position: absolute; background: url('../img/icons-s6ef0b1e6a2.png') 0 -257px no-repeat; width: 11px; height: 11px; content: ''; left: 50%; margin-left: -5px; top: 8px; }
+.spiker__about:before { position: absolute; background: url('../img/icons-s1ab0450a3f.png') 0 -1511px no-repeat; width: 11px; height: 11px; content: ''; left: 50%; margin-left: -5px; top: 8px; }
 
 .uwc-help { width: 962px; margin: 0 auto; padding: 33px 0 10px; }
 
